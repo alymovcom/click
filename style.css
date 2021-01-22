@@ -1,0 +1,40 @@
+body {
+    background: #333;
+    text-align: center;
+}
+#click {
+    margin-top: 50px;
+    font-family: consolas;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px 40px;
+    border: 8px solid white;
+    color: white;
+    border-radius: 50px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+}
+#click:hover {
+    color: rgb(206, 48, 0);
+    border: 8px solid rgb(206, 48, 0);
+    box-shadow: 0 0 50px rgb(206, 48, 0);
+}
+#click:active {
+    color: rgb(206, 48, 0);
+    border: 8px solid #333;
+    box-shadow: 0 0 50px #333;
+    transition: .2s;
+}
+.text {
+    display: inline-block;
+    color: white;
+    font-family: consolas;
+    font-size: 30px;
+    margin-top: 330px;
+    transition: .2s;
+}
+.text:hover {
+    color:rgb(206, 48, 0)
+}
