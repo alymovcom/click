@@ -38,3 +38,18 @@ body {
 .text:hover {
     color:rgb(206, 48, 0)
 }
+@media screen and (max-height: 667px){
+    .text {
+        margin-top: 200px;
+    }
+}
+@media screen and (max-height: 736px){
+    .text {
+        margin-top: 240px;
+    }
+}
+@media screen and (max-height: 812px){
+    .text {
+        margin-top: 260px;
+    }
+}
